@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
-        url('/html/Images/background.png') no-repeat center center fixed;
+        url('/php/Images/background.png') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     margin: 0;

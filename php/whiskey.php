@@ -1,37 +1,53 @@
 <!DOCTYPE html>
-    <head>
-        <title>Whiskeys</title>
-        <link rel="stylesheet" href="style1.css">
-        <link rel="stylesheet" href="style2.css"> 
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiskeys</title>
+    <link rel="stylesheet" href="Styles/style5.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="nav">
+        <div class="container">
+            <a href="products.html" class="btn">Back to Alcohol...</a>
+        </div>
+    </nav>
 
-        <body>
-            
-        <a href="products.php">
-                <button style="font-size:40px; background-color:gray aliceblue">BACK TO THE ALCOHOL...</button>
-            </a>
-
-            <h2 style="background-color: #222222; color:aliceblue">JAZZ JUKE BOX</h2>
+    <!-- Main Content -->
+    <main class="content">
+        <!-- Jazz Juke Box Section -->
+        <section class="jukebox">
+            <h2>Jazz Juke Box</h2>
             <audio controls>
-                <source src="jazz3.mp3">
+                <source src="Music/jazz3.mp3" type="audio/mpeg">
             </audio>
-            
-            <h2 style="background-color: #222222; color:aliceblue">Whiskeys:</h2>
+        </section>
 
-            <div class="slider-frame">
-                <div class="slide-images">
-                    <div class="img-container">
-                        <img src="zphotos/jd.png">
-                    </div>
-                    <div class="img-container">
-                        <img src="zphotos/ec.png">
-                    </div>
-                    <div class="img-container">
-                        <img src="zphotos/wildturk.png">
-                    </div>
+        <!-- Whiskeys Showcase Section -->
+        <section class="whiskeys">
+            <h2>Whiskeys</h2>
+            <div class="whiskey-images">
+                <div class="img-container">
+                    <img src="Images/jackd.png" alt="Blue Label Whiskey">
+                </div>
+                <div class="img-container">
+                    <img src="Images/bluelabel.png" alt="Jack Daniels Whiskey">
+                </div>
+                <div class="img-container">
+                    <img src="Images/jameson.png" alt="Jameson Whiskey">
+                </div>
             </div>
-            
-        </body>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 The Liquor Lounge. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
 
 <?php

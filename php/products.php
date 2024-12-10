@@ -1,42 +1,47 @@
 <!DOCTYPE html>
-    <head>
-        <title>Liquor Products</title>
-        <link rel="stylesheet" href="style1.css"> 
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquor Products</title>
+    <link rel="stylesheet" href="Styles/style4.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="nav">
+        <div class="container">
+            <a href="home.html" class="btn">Back Home</a>
+        </div>
+    </nav>
 
-        <body>
-            
-            <a href="home.php">
-                <button style="font-size:40px; background-color:gray aliceblue">BACK HOME</button>
-            </a>
-
-            <h2 style="background-color: #222222; color:aliceblue">JAZZ JUKE BOX</h2>
+    <!-- Main Content -->
+    <main class="content">
+        <!-- Jazz Juke Box Section -->
+        <section class="jukebox">
+            <h2>Jazz Juke Box</h2>
             <audio controls>
-                <source src="jazz2.mp3">
+                <source src="Music/jazz2.mp3" type="audio/mpeg">
             </audio>
-           
+        </section>
 
+        <!-- Liquor Products Section -->
+        <section class="liquors">
+            <h2>All of the Different Liquors We Own</h2>
+            <div class="buttons-container">
+                <a href="tequila.html" class="btn liquor-btn">Tequila</a>
+                <a href="vodka.html" class="btn liquor-btn">Vodka</a>
+                <a href="whiskey.html" class="btn liquor-btn">Whiskey</a>
+            </div>
+        </section>
+    </main>
 
-
-            <h2 style="background-color: #222222; color:aliceblue">All of the Different Liquors We Own </h2>
-            
-
-            
-            <a href="tequila.php">
-                <button style="font-size:28px; background-color:gray aliceblue">TEQUILA</button>
-            </a>
-            <br><br><br><br>
-
-            <a href="vodka.php">
-                <button style="font-size:28px; background-color:gray aliceblue">VODKA</button>
-            </a>
-            <br><br><br><br>
-
-            <a href="whiskey.php">
-                <button style="font-size:28px; background-color:gray aliceblue">WHISKEY</button>
-            </a>
-
-        </body>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 The Liquor Lounge. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
 
 <?php
